@@ -1,0 +1,9 @@
+{
+  "name": "ts-immutable-playground",
+  "version": "1.0.0",
+  "description": "Playground to explore immutable.js usability in Typescript",
+  "main": "index.ts",
+  "author": "Luca Argenziano",
+  "license": "MIT",
+  "private": false
+}
