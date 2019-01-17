@@ -2,8 +2,19 @@
   "name": "ts-immutable-playground",
   "version": "1.0.0",
   "description": "Playground to explore immutable.js usability in Typescript",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "author": "Luca Argenziano",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "nodemon": "1.18.9",
+    "ts-node": "7.0.1",
+    "typescript": "3.2.2"
+  },
+  "dependencies": {
+    "immutable": "4.0.0-rc.12"
+  },
+  "scripts": {
+    "start:dev": "nodemon --watch src/**/*.ts --exec 'ts-node' src/index.ts"
+  }
 }
