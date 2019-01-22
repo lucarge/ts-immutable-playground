@@ -12,7 +12,7 @@
     "typescript": "3.2.2"
   },
   "dependencies": {
-    "immutable": "4.0.0-rc.12"
+    "immutable": "3.8.2"
   },
   "scripts": {
     "start:dev": "nodemon --watch src/**/*.ts --exec 'ts-node' src/index.ts"
